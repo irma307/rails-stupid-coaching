@@ -1,0 +1,15 @@
+<h1>Stupid Coaching</h1>
+<p>Find me in app/views/questions/answer.html.erb</p>
+<!-- Question to the Coach -->
+<div class= "qa">
+  <h2 class="question"><%= params[:question] %></h2>
+  <p class="author">–You</p>
+</div>
+<!-- Coach answer -->
+<div class="qa-answer">
+  <h2 class="answer"><%= @answer %></h2>
+  <p class="author">–Your coach</p>
+</div>
+<%= link_to "Ask a new question", ask_path %>
+
+
